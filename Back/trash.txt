@@ -1,0 +1,58 @@
+<?php
+    session_start();
+    // $new_url = 'http://localhost:3000/';
+    header("Access-Control-Allow-Origin: *");
+    header("Content-Type: application/json; charset-UTF-8");
+    // header("Location: " .$new_url);
+    ini_set('session.gc_maxlifetime', 86400);
+    ini_set('session.cookie_lifetime', 86400);
+    // $Name = $_POST['Name'];
+    // $Second_Name = $_POST['SecondName'];
+    // $login = $_POST['login'];
+    // $email = $_POST['email'];
+    // $password = $_POST['password'];
+    // $Day = $_POST['Day'];
+    // $Mounth = $_POST['Mounth'];
+    // $Year = $_POST['Year'];
+    // $Gender = $_POST['Gender'];
+
+    setcookie(
+        "TestCookie",
+        "Chto-to",
+        time() + 3600
+    );
+
+    $Cook =  setcookie(
+        "TestCookie",
+        "Chto-to",
+        time() + 3600
+    );
+
+    // print_r($_POST);
+    // print_r($_SERVER['REQUEST_METHOD']);
+
+    $Token = session_start();
+
+    if($_SERVER['REQUEST_METHOD'] === "GET"){
+       
+        print_r($Token);
+    }
+    // // print_r(cookie_lifetime());
+    // // print_r ($_COOKIE['TestCookie']);
+    // print_r($_COOKIE);
+    // print_r($_FILES);
+     print_r(session_id());
+    // print_r(session_get_cookie_params());
+    // print_r($_GET);
+    // // print_r($_REQUEST);
+    // // print_r($_SESSION);
+
+    // $path = 'uploads/' . time() . $_FILES['avatar']['name'];
+    // move_uploaded_file($_FILES['avatar']['tmp_name'], $path);
+
+    // if($password === $password_confirm){
+
+    // }else{
+
+    // }
+?>

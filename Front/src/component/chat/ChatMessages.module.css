@@ -1,0 +1,19 @@
+.MessageContainer{
+    display: flex;
+}
+
+.OtherUser{
+    margin:10px 0 20px 10px;
+    padding: 20px 40px;
+    background-color: #5f6e69;
+    border-radius: 20px;
+}
+
+.MeUser{
+    padding: 20px 40px;
+    margin:10px 0 20px 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: #03c38a;
+    border-radius: 20px;
+}

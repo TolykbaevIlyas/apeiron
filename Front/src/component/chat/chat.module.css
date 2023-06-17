@@ -1,0 +1,64 @@
+.Main{
+    margin:30px 300px 0 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.ChatBox{
+    background-color: #d9d9d9;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.ChatUpperBlock{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b1b1b1;
+    border-radius: 10px 10px 0 0 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ChatUpperBlockImg{
+    overflow: hidden;
+    height: 70px;
+    border-radius:10px;
+    width: 70px;
+    margin-left: 30px;
+}
+
+.ChatUpperBlockImg img{
+    object-fit: cover;
+    width: 120px;
+}
+
+/* .SendBlock{
+    display: flex;
+} */
+
+.SendBlock{
+    background-color: #b1b1b1;
+    margin-top: 10px;
+    border-radius:10px;
+    padding-bottom: 40px;
+}
+
+.SendBlock textarea{
+    width: 90%;
+    height: 100px;
+    margin: 10px 20px; 
+    border-radius: 10px;
+    border:0px;
+    padding:10px;
+    resize: vertical;
+}
+
+.WritePoSendBlockstBlock button{
+    float: right;
+    margin-right: 20px;
+    color:white;
+    background-color: #000000;
+    border-radius: 10px;
+    padding:5px 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+
+.ChatBlock{
+    background-color: #d9d9d9;
+    margin-left: 10px;
+    height: 500px;
+}
+
+.SecondTextBlock{
+    margin: 20px 10px;
+    width: 100%;
+}
+
+.SecondTextBlockInner{
+    display: flex;
+    width: 300px;
+}
+
+.SecondProfileText{
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.SecondinnerImg{
+    overflow: hidden;
+    height: 35px;
+    border-radius:10px;
+    width: 250px;
+}
+
+.SecondinnerImg img{
+    object-fit: cover;
+    width: 35px;
+    border-radius: 10px;
+}

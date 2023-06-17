@@ -1,0 +1,41 @@
+.ProfileInfo{
+   margin-left: 30px;
+}
+
+.ProfileUserName{
+    display: flex;
+}
+
+.ProfileOnlineOfflineStatus{
+    height: 10px;
+    width: 10px;
+    background-color: greenyellow;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+.ProfilePostsSubCount{
+    display: flex;
+}
+
+.ProfilePostsSubCount div:not(:first-child){
+    margin-left:10px ;
+}
+
+.ProfileName h2{
+    font-size: 15px;
+}
+
+.ProfileUserInfoOrStatus{
+    width: 250px;
+}
+
+.OtherSocial{
+    display: flex;
+    margin-top:10px
+}
+
+.OtherSocial div:not(:first-child){
+    margin-left: 10px;
+}

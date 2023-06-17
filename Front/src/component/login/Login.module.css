@@ -1,0 +1,60 @@
+.Main h1{
+    text-align: center;
+}
+
+.MainBlockInner{
+    display: flex;
+    justify-content: center;
+}
+
+.RegisterBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.RegisterBlock h2{
+    text-align: center;
+}
+
+.RegisterBlockInner{
+    width: 300px;
+    margin:0 auto;
+    padding:10px;
+    border:none;
+    background-color: #747474;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.RegisterBlockInner::placeholder{
+    color:rgba(255,255, 255, 0.62);
+}
+
+.RegisterBlock input:not(:first-child){
+    margin-top: 10px;
+}
+
+.RegisterBlockBtn{
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    border:none;
+    margin:0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+}
+
+.GoToRegister{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+}

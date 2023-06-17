@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #008859;
+    padding:10px 0px;
+}
+
+.Logo{
+    display: flex;
+    padding-left: 20px;
+}
+
+.Logo p{
+    margin:0;
+    padding-top: 10px;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.Find{
+    margin-left: 10px;
+}
+
+.NavBar{
+    display: flex;
+}
+
+.NavBar .NavBarItem{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.NavBar .NavBarItem a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.NavBar .NavBarItem a:hover{
+    text-decoration: none;
+    color:#000000;
+    transition: .3s;
+    font-weight: bold;
+}
+
+/* .Avatar{
+    margin:0 0 0;
+    padding: 15px;
+    background-color: red;
+    margin-right: 20px;
+} */
+
+.AvatarInner{
+    overflow: hidden;
+    height: 50px;
+    border-radius:10px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.AvatarInner img{
+    object-fit: cover;
+    width: 80px;
+}

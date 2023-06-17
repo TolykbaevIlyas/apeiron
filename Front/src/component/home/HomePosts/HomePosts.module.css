@@ -1,0 +1,70 @@
+.PostBlock{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px; 
+    display: flex;
+}
+
+.PostBlockImgBlock{
+    margin-top: 10px;
+}
+
+.PostProfileImg{
+    overflow: hidden;
+    height: 70px;
+    border-radius:10px;
+    width: 70px;
+    margin-left: 30px;
+}
+
+.PostProfileImg img{
+    object-fit: cover;
+    width: 120px;
+}
+
+.PostBlockInfoBlock{
+    margin-top: 10px;
+}
+
+.PostProfileNameNDate h3,p{
+    margin:0
+}
+
+.PostProfileNameNDate{
+    margin-left: 10px;
+}
+
+.PostProfileNameNDate p{
+    margin-top:10px;
+}
+
+.PostMessages{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 100px;
+} 
+
+.PostFeatures{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.PostFeatures button:not(:first-child){
+    margin-left:10px
+}
+
+.PostFeatures button{
+    background-color: #b6b6b6;
+    border:none;
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.PostImage{
+    width: 500px;
+    margin-top: 20px;
+}

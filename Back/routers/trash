@@ -1,0 +1,18 @@
+<!-- Рабочая отправка фотографий, надо доработать -->
+<!-- echo json_encode($requestData);
+                // $file = $_FILES['Avatar'];
+
+                // $pathToUpload = $UploadDir . "/userAvatarImg". time() . "_" . basename($file['name']);
+
+                // move_uploaded_file($file['tmp_name'], $pathToUpload);
+
+                // $fileInsertsResult = $Link->query("INSERT INTO useravatar(path,userID) VALUES('$pathToUpload','31')");
+                
+
+                // if(!$fileInsertsResult){
+                //     setHTTPStatus("500","DB save failed");
+                //     return;
+                // }else{
+                //     setHTTPStatus("200",null);
+                //     echo json_encode(["path" => $pathToUpload]);
+                // } -->

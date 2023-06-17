@@ -1,0 +1,28 @@
+.userBlock{
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+
+}
+
+.userBlock a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+}
+
+.AvatarInner img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.UserBlockInner{
+    display: flex;
+}
+
+.usersInfo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
