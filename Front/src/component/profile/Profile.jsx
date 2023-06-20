@@ -42,7 +42,7 @@ const Profile = (props) => {
                               myId={props.myId}
                               follow={props.follow}
                               unfollow={props.unfollow}/>
-            <ProfileStoryBlock/>
+            {/* <ProfileStoryBlock/> */}
             <ProfilePostsCategory/>
             <ProfilePostsFeaturesContainerE ProfileLogin={props.ProfileLogin}
                                             paramsId={props.paramsId}

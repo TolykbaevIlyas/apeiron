@@ -10,7 +10,7 @@ import HomePostsContainer from "./HomePosts/HomePostsContainer";
 const Home = (props) => {
     return(
         <div className={c.Main}>
-          <HomeStoryBlock/>
+          {/* <HomeStoryBlock/> */}
           <HomeCategory/>
           <HomePostsWriter/>
           <HomePostsContainer/>

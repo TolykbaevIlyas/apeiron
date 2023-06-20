@@ -4,7 +4,7 @@ import c from './Global.module.css';
 
 
 const Global = (props) => {
-  //console.log(props.users);
+  //console.log(props);
   let userData = props.users.map(post => <GlobalUserBlock key={post.id} profileName={post.name} secondName={post.secondName} login={post.login} id={post.id} path={post.userAvatarPath}/>)
     return(
         <div className={c.GlobalBlock}>

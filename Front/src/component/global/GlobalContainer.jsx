@@ -18,7 +18,7 @@ class GlobalContainer extends React.Component{
             // this.props.setPosts(response.data);
             // this.props.toggleIsFetching(false);
           })
-          //console.log(this.props);
+          console.log(this.props);
 
     }
 
