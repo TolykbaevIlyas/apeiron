@@ -1,3 +1,7 @@
+Для запуска веб приложения нужно скачать базовые модули React, а так же ввести команду npm i js-cookie
+Так же чтобы увидеть первую страницу приложения, нужно написать (http://localhost:port/login)
+Чтобы приложение работало полноценно, нужно запустить вирутальный сервер
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
